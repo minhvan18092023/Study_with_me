@@ -1,0 +1,14 @@
+# Test Framework & Runner
+pytest>=8.0.0
+pytest-html>=4.1.0
+allure-pytest>=2.13.0
+
+# Framework 1: Appium Python Client
+Appium-Python-Client>=4.0.0
+
+# Framework 3: UIAutomator2 (Python)
+uiautomator2>=3.0.0
+
+# Utilities
+PyYAML>=6.0.0
+requests>=2.31.0

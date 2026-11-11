@@ -1,0 +1,18 @@
+appId: com.shopee.vn
+---
+# 1. Khởi động ứng dụng Shopee
+- launchApp:
+    clearState: false
+
+# 2. Xử lý banner sale nếu xuất hiện
+- runFlow:
+    file: ../subflows/dismiss_banner.yaml
+    optional: true
+
+# 3. Click vào mục Live & Video ở thanh điều hướng dưới cùng
+- tapOn:
+    text: "Live & Video"
+
+# 4. Xác minh giao diện Live & Video đã hiển thị
+- assertVisible:
+    text: ".*(LIVE|Live|sản phẩm|bình luận|Chia sẻ|Mua ngay|Video|Thêm bình luận).*"

@@ -1,0 +1,13 @@
+real_device:
+  serial: "RFCN104B0HL"
+  platform_name: "Android"
+  model: "SM-G981U"
+  automation_name: "UiAutomator2"
+
+emulator:
+  serial: "emulator-5554"
+  platform_name: "Android"
+  model: "Android SDK built for x86"
+  automation_name: "UiAutomator2"
+
+active_device: "RFCN104B0HL"

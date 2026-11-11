@@ -1,0 +1,15 @@
+app:
+  package_name: "com.shopee.vn"
+  main_activity: "com.shopee.app.ui.home.HomeActivity_"
+  app_wait_activity: "*"
+  no_reset: true
+  full_reset: false
+
+server:
+  appium_host: "127.0.0.1"
+  appium_port: 4723
+
+timeouts:
+  implicit_wait: 10
+  page_load: 30
+  banner_wait: 5

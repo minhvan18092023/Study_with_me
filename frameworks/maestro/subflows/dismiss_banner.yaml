@@ -1,0 +1,12 @@
+appId: com.shopee.vn
+---
+# Đóng banner sale/quảng cáo nếu xuất hiện
+- tapOn:
+    id: ".*(btn_close|button_close|close_btn|iv_close|dialog_close).*"
+    optional: true
+- tapOn:
+    text: "(✕|✖|X|x|Đóng|Close)"
+    optional: true
+- tapOn:
+    id: "com.shopee.vn:id/button_close"
+    optional: true
